@@ -1,4 +1,4 @@
-##BuildCHAT Instant Messenging App
+## BuildCHAT Instant Messenging App
 
 Hello and welcome to BuildCHAT, a web app that facilitates easy communication between members through the use of the Pubnub SDK.
 
