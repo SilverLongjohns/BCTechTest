@@ -1,0 +1,110 @@
+body {
+  background-color: #ffffff;
+  color: #131315;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#login-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#login {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(118, 115, 115);
+  background-color: #e3d0b9;
+  color: #0f1123;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#update-text {
+  position: absolute;
+  bottom: 2%;
+  right: 8%;
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(118, 115, 115);
+  background-color: #e3d0b9;
+  color: #0f1123;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#publish-button {
+  position: absolute;
+  bottom: 3.6%;
+  right: 5%;
+}
+
+#channel-list {
+  position: absolute;
+  height:100%;
+  width: 15%;
+  top: 0;
+  left: 0;
+  background-color: #62959c;
+  z-index: -1;
+}
+
+#convo {
+  position: absolute;
+  height: 80%;
+  width: 70%;
+  left: 17%;
+  top: 75px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#login-state {
+  color: #0f1123;
+  width: 100%;
+}
+
+#line {
+  position: relative;
+  bottom: 10px;
+  width: 650%;
+  background-color: #e3d0b9;
+  height: 2px;
+  z-index: 1;
+}
+
+#channel-bars {
+  position: absolute;
+  height:85%;
+  width: 100%;
+  top: 5%;
+  left: 0;
+  background-color: #2e4b4f;
+  z-index: -2;
+}
+
+#channel-title {
+  position: absolute;
+  left: 17%;
+}
+
+#writing {
+  position: absolute;
+  bottom: 7%;
+  left: 17%;
+}

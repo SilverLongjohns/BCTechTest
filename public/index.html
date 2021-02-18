@@ -4,16 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.27.4.min.js"></script>
-  <script src="./pubnub.js" content="text/javascript" defer></script>
+  <meta Content-Type="application/javascript;charset=utf-8">
+  <link rel="stylesheet" href="../style.css">
+  <title>Login</title>
 </head>
 <body>
-  <div>
-    <strong>Earth:</strong> <input id="update-text" type="input" placeholder="enter update for Earth here"/>
-    <input id="publish-button" type="submit" value="Submit Update to The Guide"/>
-    <p><strong>Updates</strong></p>
-    <div id="messages-top"/>
-  </div>
+  <img id="logo" src="logo.png">
+    <form id="login-form" action="http://localhost:3000/general" method="GET">
+      <input id="login" type="text" name="nick" placeholder="Type a username to get started!"> <br>
+      <input type="submit" value="submit">
+    </form>
 </body>
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../style.css">
+  <title>BuildChat</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div id="channel-list">
+    <div id="login-state">
+      <strong>You're logged in as: <%= nick%></strong>
+    </div>
+    <div id="channel-bars">
+      <a>General</a>
+    </div>
+  </div>
+    <p id="channel-title"><strong>General</strong></p>
+    <div id="convo">
+      <div id="messages-top">
+      </div>
+    </div>
+  <div id="chatbox">
+    <p id="writing"><span id="typing-user-id"></span><span id="typing-indicator" style="visibility:hidden;">is typing...</span></p>
+    <input id="update-text" type="input" placeholder="Start chatting to General!"/>
+    <input id="publish-button" type="submit" value="Post!"/>
+  </div>
+
+  <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.27.4.min.js"></script>
+  <script>const username = "<%= nick %>"</script>
+  <script type="application/javascript" src="pubnubScript.js"></script>
+  <script type="application/javascript" src="typingIndicator.js"></script>
+</body>
+</html>
