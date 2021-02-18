@@ -10,11 +10,15 @@
 
   <div id="channel-list">
     <div id="login-state">
-      <strong>You're logged in as: <%= nick%></strong>
+      <strong><span style="color:white">Logged in<br>as: </span><%= nick%></strong>
     </div>
     <div id="channel-bars">
-      <a>General</a>
+      <a id="active" style="color:white;">General</a>
+      <a>Off-Topic</a>
+      <a>Mediashare</a>
+      <a>Announcements</a>
     </div>
+    <img id="sidelogo" src="logo.png">
   </div>
     <p id="channel-title"><strong>General</strong></p>
     <div id="convo">

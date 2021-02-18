@@ -14,7 +14,8 @@
 
     const pubnub = new PubNub({
       // replace the key placeholders with your own PubNub publish and subscribe keys
-      
+      publishKey: 'placeholder',
+      subscribeKey: 'placeholder',
       uuid: username
     });
 
@@ -28,7 +29,7 @@
         
       },
       status: function(event) {
-        displayMessage('Connected as: ' + event.publisher,
+        displayMessage('Connected!',
           "You're now speaking in: " + event.affectedChannels);
       }
     });

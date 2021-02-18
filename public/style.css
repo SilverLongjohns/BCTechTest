@@ -1,6 +1,7 @@
 body {
   background-color: #ffffff;
   color: #131315;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #logo {
@@ -8,6 +9,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+
+#sidelogo {
+  margin-top: 68%;
+  display: block;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 95%;
 }
 
 #login-form {
@@ -60,7 +69,7 @@ body {
   width: 15%;
   top: 0;
   left: 0;
-  background-color: #62959c;
+  background-color: #00587a;
   z-index: -1;
 }
 
@@ -76,6 +85,7 @@ body {
 
 #login-state {
   color: #0f1123;
+  margin: 3%;
   width: 100%;
 }
 
@@ -94,8 +104,20 @@ body {
   width: 100%;
   top: 5%;
   left: 0;
-  background-color: #2e4b4f;
+  background-color: #00587a;
   z-index: -2;
+}
+
+#channel-bars a {
+  display: block;
+  font-weight: bolder;
+  color: black;
+  background-color: #e3d0b9;
+  margin: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 3%;
+  padding: 3%;
 }
 
 #channel-title {
